@@ -2,7 +2,7 @@
 //  CelloSDK.h
 //  CelloSDK
 //
-//  Created by Cello Dev on 18/08/2023.
+//  Created by Narendra on 18/08/2023.
 //
 
 #import <Foundation/Foundation.h>

@@ -1242,6 +1242,56 @@
           },
           {
             "kind": "Var",
+            "name": "invalidState",
+            "printedName": "invalidState",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CelloSDK.APIError.Type) -> (Swift.String) -> CelloSDK.APIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> CelloSDK.APIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "CelloSDK.APIError",
+                        "usr": "s:8CelloSDK8APIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CelloSDK.APIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIError",
+                        "printedName": "CelloSDK.APIError",
+                        "usr": "s:8CelloSDK8APIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8CelloSDK8APIErrorO12invalidStateyACSScACmF",
+            "mangledName": "$s8CelloSDK8APIErrorO12invalidStateyACSScACmF",
+            "moduleName": "CelloSDK"
+          },
+          {
+            "kind": "Var",
             "name": "description",
             "printedName": "description",
             "children": [
@@ -1751,14 +1801,14 @@
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
       "kind": "StringLiteral",
-      "offset": 2665,
+      "offset": 2541,
       "length": 25,
       "value": "\"CelloTokenAboutToExpire\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
       "kind": "StringLiteral",
-      "offset": 2755,
+      "offset": 2631,
       "length": 22,
       "value": "\"CelloTokenHasExpired\""
     },

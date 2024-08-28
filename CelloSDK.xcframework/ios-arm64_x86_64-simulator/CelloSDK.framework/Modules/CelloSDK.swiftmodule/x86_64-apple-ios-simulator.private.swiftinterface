@@ -49,6 +49,7 @@ public enum APIError : Swift.Error {
   case invalidResponseType
   case noDataReceived
   case jsonParsingError(Swift.Error)
+  case invalidState(Swift.String)
 }
 extension CelloSDK.APIError : Swift.CustomStringConvertible {
   public var description: Swift.String {
