@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CelloSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import CelloSDK
@@ -35,7 +35,7 @@ public enum SupportedLanguage : Swift.String {
   public static func shutdown()
   public static func getActiveUcc() -> [Swift.String : Swift.String]?
   @available(iOS 14.0, *)
-  public static func changeLanguage(to language: CelloSDK.SupportedLanguage, completion: ((Swift.Result<Any, Swift.Error>) -> Swift.Void)? = nil)
+  public static func changeLanguage(to language: CelloSDK.SupportedLanguage, completion: ((Swift.Result<Any, any Swift.Error>) -> Swift.Void)? = nil)
   @objc deinit
 }
 extension Foundation.NSNotification.Name {
@@ -48,7 +48,7 @@ public enum APIError : Swift.Error {
   case requestFailed(Swift.Int, Swift.String)
   case invalidResponseType
   case noDataReceived
-  case jsonParsingError(Swift.Error)
+  case jsonParsingError(any Swift.Error)
   case invalidState(Swift.String)
 }
 extension CelloSDK.APIError : Swift.CustomStringConvertible {
@@ -56,6 +56,21 @@ extension CelloSDK.APIError : Swift.CustomStringConvertible {
     get
   }
 }
+public enum Environment : Swift.String {
+  case dev
+  case stage
+  case demo
+  case sandbox
+  case prod
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 extension CelloSDK.SupportedLanguage : Swift.Equatable {}
 extension CelloSDK.SupportedLanguage : Swift.Hashable {}
 extension CelloSDK.SupportedLanguage : Swift.RawRepresentable {}
+extension CelloSDK.Environment : Swift.Equatable {}
+extension CelloSDK.Environment : Swift.Hashable {}
+extension CelloSDK.Environment : Swift.RawRepresentable {}
