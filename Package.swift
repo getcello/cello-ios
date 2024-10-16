@@ -13,7 +13,7 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "CelloSDK",
-      url: "https://github.com/getcello/cello-ios-sp/releases/download/0.2.0/CelloSDK.xcframework.zip",
-      checksum: "b86935c6c683046d6fe2993e4e860c1e178bb97f859e82ecd9a7672cae94e5e4")
+      url: "https://github.com/getcello/cello-ios-sp/releases/download/0.2.1/CelloSDK.xcframework.zip",
+      checksum: "bb3e7997ebe98ac22450223390498b87da9038c780020baa460eac59856bfb4d")
   ]
 )

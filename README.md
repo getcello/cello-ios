@@ -26,7 +26,7 @@ Add https://github.com/getcello/cello-ios-sp as a Swift Package Repository in Xc
 
 ### Option 2: Install Cello manually
 
-- Download Cello for iOS and extract the zip. [(👉 Cello iOS zip download)](https://github.com/getcello/cello-ios-sp/releases/download/0.2.0/CelloSDK.xcframework.zip)
+- Download Cello for iOS and extract the zip. [(👉 Cello iOS zip download)](https://github.com/getcello/cello-ios-sp/releases/download/0.2.1/CelloSDK.xcframework.zip)
 - Drag CelloSDK.xcframework into your project. Make sure "Copy items if needed" is selected and click Finish.
 - In the target settings for your app, set the CelloSDK.xcframework to “Embed & Sign”. This can be found in the “Frameworks, Libraries, and Embedded Content” section of the “General” tab.
 
