@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/CelloSDK.framework/CelloSDK</key>
 		<data>
-		bmwkyhZu5bYDnwnTVBhhmN9E4Ek=
+		86gWNtF5NzpSRu3Ks2TNb7sONYM=
 		</data>
 		<key>ios-arm64/CelloSDK.framework/Headers/CelloSDK-Swift.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>ios-arm64/CelloSDK.framework/Modules/CelloSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		JGcnqUNd/pDKZqcJ+UzY9sgMrsA=
+		uwkhsictk8jROX0jkj4T2NL/1bA=
 		</data>
 		<key>ios-arm64/CelloSDK.framework/Modules/CelloSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/CelloSDK.framework/Versions/A/CelloSDK</key>
 		<data>
-		Q8IsnIft5AXFju/9yXzRlz+e3O4=
+		+sXyHVTdkmpk5jcy/YnnHGGWWhU=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/CelloSDK.framework/Versions/A/Headers/CelloSDK-Swift.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/CelloSDK.framework/Versions/A/Modules/CelloSDK.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<data>
-		JGcnqUNd/pDKZqcJ+UzY9sgMrsA=
+		uwkhsictk8jROX0jkj4T2NL/1bA=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/CelloSDK.framework/Versions/A/Modules/CelloSDK.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/CelloSDK.framework/Versions/A/Modules/CelloSDK.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<data>
-		JGcnqUNd/pDKZqcJ+UzY9sgMrsA=
+		uwkhsictk8jROX0jkj4T2NL/1bA=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/CelloSDK.framework/Versions/A/Modules/CelloSDK.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CelloSDK.framework/CelloSDK</key>
 		<data>
-		EgYB5+TM7SE4ecRr3CHV2Y4P2C0=
+		CC8SwLglSvx9rbxPYhGg/1ImBQU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CelloSDK.framework/Headers/CelloSDK-Swift.h</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CelloSDK.framework/Modules/CelloSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		JGcnqUNd/pDKZqcJ+UzY9sgMrsA=
+		uwkhsictk8jROX0jkj4T2NL/1bA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CelloSDK.framework/Modules/CelloSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CelloSDK.framework/Modules/CelloSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JGcnqUNd/pDKZqcJ+UzY9sgMrsA=
+		uwkhsictk8jROX0jkj4T2NL/1bA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/CelloSDK.framework/Modules/CelloSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/CelloSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		0gJ4NQ1AdqORxUH0D6DQ9BqTH6U=
+		htbwm9oGyX6BChdpfQcevP5ld8E=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -190,11 +190,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bmwkyhZu5bYDnwnTVBhhmN9E4Ek=
+			86gWNtF5NzpSRu3Ks2TNb7sONYM=
 			</data>
 			<key>hash2</key>
 			<data>
-			4k8+xfg5I8cI8tLPUAWRABIUTkeWSwLOgYtGBXgeccQ=
+			zh6KAxQi2jG/17cCes6dnGgyRco2SXexIhnAbm5d8g8=
 			</data>
 		</dict>
 		<key>ios-arm64/CelloSDK.framework/Headers/CelloSDK-Swift.h</key>
@@ -234,11 +234,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JGcnqUNd/pDKZqcJ+UzY9sgMrsA=
+			uwkhsictk8jROX0jkj4T2NL/1bA=
 			</data>
 			<key>hash2</key>
 			<data>
-			XZrFURL4ydTu6oGHdyxv0Z9WjX1LUG+BgFIRYLM/Md8=
+			8CLaXR/XG98nb0KAvRvRYw8PEjgE5mIuw3hnFCJhkSc=
 			</data>
 		</dict>
 		<key>ios-arm64/CelloSDK.framework/Modules/CelloSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -320,11 +320,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q8IsnIft5AXFju/9yXzRlz+e3O4=
+			+sXyHVTdkmpk5jcy/YnnHGGWWhU=
 			</data>
 			<key>hash2</key>
 			<data>
-			3doGYak5G6/8iU595z4ETNB8bJBc7c2v2c3iLOHiZCM=
+			C2YjRr48oTsCSuhQvVz8r4zcAwtdYlp+/KOxiguC+2o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/CelloSDK.framework/Versions/A/Headers/CelloSDK-Swift.h</key>
@@ -353,11 +353,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JGcnqUNd/pDKZqcJ+UzY9sgMrsA=
+			uwkhsictk8jROX0jkj4T2NL/1bA=
 			</data>
 			<key>hash2</key>
 			<data>
-			XZrFURL4ydTu6oGHdyxv0Z9WjX1LUG+BgFIRYLM/Md8=
+			8CLaXR/XG98nb0KAvRvRYw8PEjgE5mIuw3hnFCJhkSc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/CelloSDK.framework/Versions/A/Modules/CelloSDK.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
@@ -397,11 +397,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JGcnqUNd/pDKZqcJ+UzY9sgMrsA=
+			uwkhsictk8jROX0jkj4T2NL/1bA=
 			</data>
 			<key>hash2</key>
 			<data>
-			XZrFURL4ydTu6oGHdyxv0Z9WjX1LUG+BgFIRYLM/Md8=
+			8CLaXR/XG98nb0KAvRvRYw8PEjgE5mIuw3hnFCJhkSc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/CelloSDK.framework/Versions/A/Modules/CelloSDK.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
@@ -501,11 +501,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EgYB5+TM7SE4ecRr3CHV2Y4P2C0=
+			CC8SwLglSvx9rbxPYhGg/1ImBQU=
 			</data>
 			<key>hash2</key>
 			<data>
-			b+Mg/2CSSJxHcGWqP5z1hDGbXyPA1e45Sni8jdITqUc=
+			mfHUZcR74Vvd8NU7W2PXm62IliexDWmE2YvO1L1PMY4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CelloSDK.framework/Headers/CelloSDK-Swift.h</key>
@@ -545,11 +545,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JGcnqUNd/pDKZqcJ+UzY9sgMrsA=
+			uwkhsictk8jROX0jkj4T2NL/1bA=
 			</data>
 			<key>hash2</key>
 			<data>
-			XZrFURL4ydTu6oGHdyxv0Z9WjX1LUG+BgFIRYLM/Md8=
+			8CLaXR/XG98nb0KAvRvRYw8PEjgE5mIuw3hnFCJhkSc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CelloSDK.framework/Modules/CelloSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -589,11 +589,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JGcnqUNd/pDKZqcJ+UzY9sgMrsA=
+			uwkhsictk8jROX0jkj4T2NL/1bA=
 			</data>
 			<key>hash2</key>
 			<data>
-			XZrFURL4ydTu6oGHdyxv0Z9WjX1LUG+BgFIRYLM/Md8=
+			8CLaXR/XG98nb0KAvRvRYw8PEjgE5mIuw3hnFCJhkSc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/CelloSDK.framework/Modules/CelloSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -655,11 +655,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0gJ4NQ1AdqORxUH0D6DQ9BqTH6U=
+			htbwm9oGyX6BChdpfQcevP5ld8E=
 			</data>
 			<key>hash2</key>
 			<data>
-			p0hSPigjNOdzUaEMiZ/IOlbHcjHLMu1KOuN+6cJ5xaE=
+			JBCEG0mk0jS1txvfsCs/xmD3hUZDEsBdjsGaMny/KFw=
 			</data>
 		</dict>
 	</dict>

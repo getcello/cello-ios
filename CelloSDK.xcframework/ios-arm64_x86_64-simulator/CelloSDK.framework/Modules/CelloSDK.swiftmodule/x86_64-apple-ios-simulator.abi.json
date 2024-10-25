@@ -2164,7 +2164,7 @@
       "kind": "StringLiteral",
       "offset": 314,
       "length": 7,
-      "value": "\"0.2.0\""
+      "value": "\"0.2.3\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
