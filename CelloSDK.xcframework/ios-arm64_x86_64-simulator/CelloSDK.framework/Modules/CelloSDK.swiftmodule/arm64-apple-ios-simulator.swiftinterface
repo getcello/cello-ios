@@ -57,6 +57,7 @@ extension CelloSDK.APIError : Swift.CustomStringConvertible {
   }
 }
 public enum Environment : Swift.String {
+  case local
   case dev
   case stage
   case demo

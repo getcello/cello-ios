@@ -371,7 +371,7 @@
 			repositoryURL = "https://github.com/getcello/cello-ios-sp";
 			requirement = {
 				kind = exactVersion;
-				version = 0.2.3;
+				version = 0.3.0;
 			};
 		};
 		D94E20AB2BD841E200144558 /* XCRemoteSwiftPackageReference "jwt-kit" */ = {
