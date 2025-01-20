@@ -25,7 +25,7 @@ public enum SupportedLanguage : Swift.String {
   public var configuration: [Swift.String : Any]? {
     get
   }
-  public static func initialize(for productId: Swift.String, with token: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], CelloSDK.APIError>) -> Swift.Void)
+  public static func initialize(for productId: Swift.String, with token: Swift.String, environment: Swift.String? = nil, completion: @escaping (Swift.Result<[Swift.String : Any], CelloSDK.APIError>) -> Swift.Void)
   @available(iOS 14.0, *)
   public static func updateToken(token: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], CelloSDK.APIError>) -> Swift.Void)
   public static func showFab()
@@ -36,6 +36,8 @@ public enum SupportedLanguage : Swift.String {
   public static func getActiveUcc() -> [Swift.String : Swift.String]?
   @available(iOS 14.0, *)
   public static func changeLanguage(to language: CelloSDK.SupportedLanguage, completion: ((Swift.Result<Any, any Swift.Error>) -> Swift.Void)? = nil)
+  @available(iOS 14.0, *)
+  public static func changeLanguage(to language: Swift.String, completion: ((Swift.Result<Any, any Swift.Error>) -> Swift.Void)? = nil)
   @objc deinit
 }
 extension Foundation.NSNotification.Name {
@@ -56,22 +58,6 @@ extension CelloSDK.APIError : Swift.CustomStringConvertible {
     get
   }
 }
-public enum Environment : Swift.String {
-  case local
-  case dev
-  case stage
-  case demo
-  case sandbox
-  case prod
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 extension CelloSDK.SupportedLanguage : Swift.Equatable {}
 extension CelloSDK.SupportedLanguage : Swift.Hashable {}
 extension CelloSDK.SupportedLanguage : Swift.RawRepresentable {}
-extension CelloSDK.Environment : Swift.Equatable {}
-extension CelloSDK.Environment : Swift.Hashable {}
-extension CelloSDK.Environment : Swift.RawRepresentable {}

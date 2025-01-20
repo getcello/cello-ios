@@ -436,7 +436,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(for:with:completion:)",
+            "printedName": "initialize(for:with:environment:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -454,6 +454,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -502,8 +517,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CelloSDK0A0C10initialize3for4with10completionySS_SSys6ResultOySDySSypGAA8APIErrorOGctFZ",
-            "mangledName": "$s8CelloSDK0A0C10initialize3for4with10completionySS_SSys6ResultOySDySSypGAA8APIErrorOGctFZ",
+            "usr": "s:8CelloSDK0A0C10initialize3for4with11environment10completionySS_S2SSgys6ResultOySDySSypGAA8APIErrorOGctFZ",
+            "mangledName": "$s8CelloSDK0A0C10initialize3for4with11environment10completionySS_S2SSgys6ResultOySDySSypGAA8APIErrorOGctFZ",
             "moduleName": "CelloSDK",
             "static": true,
             "declAttributes": [
@@ -803,6 +818,76 @@
             "declKind": "Func",
             "usr": "s:8CelloSDK0A0C14changeLanguage2to10completionyAA09SupportedD0O_ys6ResultOyyps5Error_pGcSgtFZ",
             "mangledName": "$s8CelloSDK0A0C14changeLanguage2to10completionyAA09SupportedD0O_ys6ResultOyyps5Error_pGcSgtFZ",
+            "moduleName": "CelloSDK",
+            "static": true,
+            "intro_iOS": "14.0",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeLanguage",
+            "printedName": "changeLanguage(to:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<Any, Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<Any, Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<Any, Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CelloSDK0A0C14changeLanguage2to10completionySS_ys6ResultOyyps5Error_pGcSgtFZ",
+            "mangledName": "$s8CelloSDK0A0C14changeLanguage2to10completionySS_ys6ResultOyyps5Error_pGcSgtFZ",
             "moduleName": "CelloSDK",
             "static": true,
             "intro_iOS": "14.0",
@@ -1416,353 +1501,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Environment",
-        "printedName": "Environment",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "local",
-            "printedName": "local",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(CelloSDK.Environment.Type) -> CelloSDK.Environment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "CelloSDK.Environment",
-                    "usr": "s:8CelloSDK11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "CelloSDK.Environment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "CelloSDK.Environment",
-                        "usr": "s:8CelloSDK11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8CelloSDK11EnvironmentO5localyA2CmF",
-            "mangledName": "$s8CelloSDK11EnvironmentO5localyA2CmF",
-            "moduleName": "CelloSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "dev",
-            "printedName": "dev",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(CelloSDK.Environment.Type) -> CelloSDK.Environment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "CelloSDK.Environment",
-                    "usr": "s:8CelloSDK11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "CelloSDK.Environment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "CelloSDK.Environment",
-                        "usr": "s:8CelloSDK11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8CelloSDK11EnvironmentO3devyA2CmF",
-            "mangledName": "$s8CelloSDK11EnvironmentO3devyA2CmF",
-            "moduleName": "CelloSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "stage",
-            "printedName": "stage",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(CelloSDK.Environment.Type) -> CelloSDK.Environment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "CelloSDK.Environment",
-                    "usr": "s:8CelloSDK11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "CelloSDK.Environment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "CelloSDK.Environment",
-                        "usr": "s:8CelloSDK11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8CelloSDK11EnvironmentO5stageyA2CmF",
-            "mangledName": "$s8CelloSDK11EnvironmentO5stageyA2CmF",
-            "moduleName": "CelloSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "demo",
-            "printedName": "demo",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(CelloSDK.Environment.Type) -> CelloSDK.Environment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "CelloSDK.Environment",
-                    "usr": "s:8CelloSDK11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "CelloSDK.Environment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "CelloSDK.Environment",
-                        "usr": "s:8CelloSDK11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8CelloSDK11EnvironmentO4demoyA2CmF",
-            "mangledName": "$s8CelloSDK11EnvironmentO4demoyA2CmF",
-            "moduleName": "CelloSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "sandbox",
-            "printedName": "sandbox",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(CelloSDK.Environment.Type) -> CelloSDK.Environment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "CelloSDK.Environment",
-                    "usr": "s:8CelloSDK11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "CelloSDK.Environment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "CelloSDK.Environment",
-                        "usr": "s:8CelloSDK11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8CelloSDK11EnvironmentO7sandboxyA2CmF",
-            "mangledName": "$s8CelloSDK11EnvironmentO7sandboxyA2CmF",
-            "moduleName": "CelloSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "prod",
-            "printedName": "prod",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(CelloSDK.Environment.Type) -> CelloSDK.Environment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "CelloSDK.Environment",
-                    "usr": "s:8CelloSDK11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "CelloSDK.Environment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "CelloSDK.Environment",
-                        "usr": "s:8CelloSDK11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8CelloSDK11EnvironmentO4prodyA2CmF",
-            "mangledName": "$s8CelloSDK11EnvironmentO4prodyA2CmF",
-            "moduleName": "CelloSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8CelloSDK11EnvironmentO8rawValueSSvp",
-            "mangledName": "$s8CelloSDK11EnvironmentO8rawValueSSvp",
-            "moduleName": "CelloSDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8CelloSDK11EnvironmentO8rawValueSSvg",
-                "mangledName": "$s8CelloSDK11EnvironmentO8rawValueSSvg",
-                "moduleName": "CelloSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CelloSDK.Environment?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "CelloSDK.Environment",
-                    "usr": "s:8CelloSDK11EnvironmentO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8CelloSDK11EnvironmentO8rawValueACSgSS_tcfc",
-            "mangledName": "$s8CelloSDK11EnvironmentO8rawValueACSgSS_tcfc",
-            "moduleName": "CelloSDK",
-            "implicit": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:8CelloSDK11EnvironmentO",
-        "mangledName": "$s8CelloSDK11EnvironmentO",
-        "moduleName": "CelloSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "Name",
         "printedName": "Name",
         "children": [
@@ -2201,383 +1939,383 @@
       "kind": "StringLiteral",
       "offset": 314,
       "length": 7,
-      "value": "\"0.3.1\""
+      "value": "\"0.4.0\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 1659,
+      "offset": 1840,
       "length": 10,
       "value": "\"tokenTTL\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2048,
+      "offset": 2229,
       "length": 11,
       "value": "\"productId\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2088,
+      "offset": 2269,
       "length": 12,
       "value": "\"referrerId\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2116,
+      "offset": 2297,
       "length": 12,
       "value": "\"referrerId\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2144,
+      "offset": 2325,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2164,
+      "offset": 2345,
       "length": 12,
       "value": "\"campaignId\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2192,
+      "offset": 2373,
       "length": 12,
       "value": "\"campaignId\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2220,
+      "offset": 2401,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2403,
+      "offset": 2584,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2411,
+      "offset": 2592,
       "length": 15,
       "value": "\"widget-booted\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2440,
+      "offset": 2621,
       "length": 16,
       "value": "\"clientSettings\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "Dictionary",
-      "offset": 2458,
+      "offset": 2639,
       "length": 51,
       "value": "[(\"mobileMode\", true)]"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2523,
+      "offset": 2704,
       "length": 13,
       "value": "\"referralUcc\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2549,
+      "offset": 2730,
       "length": 5,
       "value": "\"ucc\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 2841,
+      "offset": 3022,
       "length": 20,
       "value": "\"Product ID not set\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 3051,
+      "offset": 3232,
       "length": 31,
       "value": "\"Configuration not initialized\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 3508,
+      "offset": 3689,
       "length": 10,
       "value": "\"tokenTTL\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 3813,
+      "offset": 3994,
       "length": 48,
       "value": "\"Error: showFab() called before initialization.\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 4163,
+      "offset": 4344,
       "length": 48,
       "value": "\"Error: hideFab() called before initialization.\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 4403,
+      "offset": 4584,
       "length": 51,
       "value": "\"Error: openWidget() called before initialization.\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 4653,
+      "offset": 4834,
       "length": 51,
       "value": "\"Error: hideWidget() called before initialization.\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 4898,
+      "offset": 5079,
       "length": 49,
       "value": "\"Error: shutdown() called before initialization.\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 5276,
+      "offset": 5496,
       "length": 53,
       "value": "\"Error: getActiveUcc() called before initialization.\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 5466,
+      "offset": 5686,
       "length": 5,
       "value": "\"ucc\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 5527,
+      "offset": 5747,
       "length": 12,
       "value": "\"shareLinks\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 5601,
+      "offset": 5821,
       "length": 11,
       "value": "\"powerplay\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 5636,
+      "offset": 5856,
       "length": 5,
       "value": "\"ucc\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 5653,
+      "offset": 5873,
       "length": 6,
       "value": "\"link\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 5931,
+      "offset": 6372,
       "length": 55,
       "value": "\"Error: changeLanguage() called before initialization.\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 6712,
+      "offset": 7144,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 6758,
+      "offset": 7190,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 6772,
+      "offset": 7204,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 6812,
+      "offset": 7244,
       "length": 15,
       "value": "\"productConfig\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 6864,
+      "offset": 7296,
       "length": 15,
       "value": "\"productConfig\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 6963,
+      "offset": 7395,
       "length": 15,
       "value": "\"productConfig\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 7026,
+      "offset": 7458,
       "length": 11,
       "value": "\"productId\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 7084,
+      "offset": 7516,
       "length": 15,
       "value": "\"productConfig\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 7195,
+      "offset": 7627,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 7246,
+      "offset": 7678,
       "length": 16,
       "value": "\"showFullWidget\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 7279,
+      "offset": 7711,
       "length": 15,
       "value": "\"productConfig\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 7316,
+      "offset": 7748,
       "length": 14,
       "value": "\"mobileConfig\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 7383,
+      "offset": 7815,
       "length": 16,
       "value": "\"showFullWidget\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "BooleanLiteral",
-      "offset": 7406,
+      "offset": 7838,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 7425,
+      "offset": 7857,
       "length": 25,
       "value": "\"isNativeEventsSupported\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "BooleanLiteral",
-      "offset": 7452,
+      "offset": 7884,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 7498,
+      "offset": 7930,
       "length": 17,
       "value": "\"nativeSDKConfig\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "Array",
-      "offset": 8057,
+      "offset": 8489,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 8156,
+      "offset": 8588,
       "length": 48,
       "value": "\"Error converting configuration to JSON string:\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 8448,
+      "offset": 8880,
       "length": 8,
       "value": "\"styles\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 8508,
+      "offset": 8940,
       "length": 5,
       "value": "\"fab\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 8572,
+      "offset": 9004,
       "length": 9,
       "value": "\"bgColor\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 8635,
+      "offset": 9067,
       "length": 11,
       "value": "\"iconColor\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 8828,
+      "offset": 9260,
       "length": 3,
       "value": "\"#\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 9024,
+      "offset": 9456,
       "length": 3,
       "value": "\"#\""
     },
@@ -4446,98 +4184,91 @@
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 154,
+      "offset": 156,
       "length": 7,
       "value": "\"local\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 177,
+      "offset": 179,
       "length": 5,
       "value": "\"dev\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 200,
+      "offset": 202,
       "length": 7,
       "value": "\"stage\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 224,
+      "offset": 226,
       "length": 6,
       "value": "\"demo\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 250,
+      "offset": 252,
       "length": 9,
       "value": "\"sandbox\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 276,
+      "offset": 278,
       "length": 6,
       "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 385,
+      "offset": 612,
       "length": 11,
       "value": "\"CELLO_ENV\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 412,
-      "length": 6,
-      "value": "\"prod\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 154,
+      "offset": 156,
       "length": 7,
       "value": "\"local\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 177,
+      "offset": 179,
       "length": 5,
       "value": "\"dev\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 200,
+      "offset": 202,
       "length": 7,
       "value": "\"stage\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 224,
+      "offset": 226,
       "length": 6,
       "value": "\"demo\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 250,
+      "offset": 252,
       "length": 9,
       "value": "\"sandbox\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 276,
+      "offset": 278,
       "length": 6,
       "value": "\"prod\""
     }
