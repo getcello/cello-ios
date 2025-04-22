@@ -777,12 +777,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Result<Any, Swift.Error>) -> ())?",
+                "printedName": "((Swift.Result<Any, any Swift.Error>) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Result<Any, Swift.Error>) -> ()",
+                    "printedName": "(Swift.Result<Any, any Swift.Error>) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -792,7 +792,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Result",
-                        "printedName": "Swift.Result<Any, Swift.Error>",
+                        "printedName": "Swift.Result<Any, any Swift.Error>",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -802,7 +802,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -847,12 +847,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Result<Any, Swift.Error>) -> ())?",
+                "printedName": "((Swift.Result<Any, any Swift.Error>) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Result<Any, Swift.Error>) -> ()",
+                    "printedName": "(Swift.Result<Any, any Swift.Error>) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -862,7 +862,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Result",
-                        "printedName": "Swift.Result<Any, Swift.Error>",
+                        "printedName": "Swift.Result<Any, any Swift.Error>",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -872,7 +872,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -1303,12 +1303,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(CelloSDK.APIError.Type) -> (Swift.Error) -> CelloSDK.APIError",
+                "printedName": "(CelloSDK.APIError.Type) -> (any Swift.Error) -> CelloSDK.APIError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> CelloSDK.APIError",
+                    "printedName": "(any Swift.Error) -> CelloSDK.APIError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1319,7 +1319,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -1498,6 +1498,34 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CelloSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CelloSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CelloSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "CelloSDK"
       },
       {
         "kind": "TypeDecl",
@@ -1796,80 +1824,24 @@
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
-      "kind": "StringLiteral",
-      "offset": 634,
-      "length": 9,
-      "value": "\"#212121\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
       "kind": "FloatLiteral",
-      "offset": 664,
+      "offset": 654,
       "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
-      "kind": "StringLiteral",
-      "offset": 824,
-      "length": 9,
-      "value": "\"#616161\""
+      "value": "0.3"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1068,
+      "offset": 1054,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
-      "kind": "StringLiteral",
-      "offset": 1675,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
-      "kind": "StringLiteral",
-      "offset": 2157,
-      "length": 7,
-      "value": "\"close\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
-      "kind": "StringLiteral",
-      "offset": 2235,
-      "length": 37,
-      "value": "\"Error: Image named close not found.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2557,
+      "offset": 1089,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3651,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3838,
-      "length": 4,
-      "value": "30.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3942,
-      "length": 3,
-      "value": "0.1"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
@@ -1953,413 +1925,7 @@
       "kind": "StringLiteral",
       "offset": 314,
       "length": 7,
-      "value": "\"0.6.1\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 1842,
-      "length": 10,
-      "value": "\"tokenTTL\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 2231,
-      "length": 11,
-      "value": "\"productId\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 2271,
-      "length": 12,
-      "value": "\"referrerId\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 2299,
-      "length": 12,
-      "value": "\"referrerId\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 2327,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 2347,
-      "length": 12,
-      "value": "\"campaignId\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 2375,
-      "length": 12,
-      "value": "\"campaignId\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 2403,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 2586,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 2594,
-      "length": 15,
-      "value": "\"widget-booted\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 2623,
-      "length": 16,
-      "value": "\"clientSettings\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "Dictionary",
-      "offset": 2641,
-      "length": 51,
-      "value": "[(\"mobileMode\", true)]"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 2706,
-      "length": 13,
-      "value": "\"referralUcc\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 2732,
-      "length": 5,
-      "value": "\"ucc\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 3024,
-      "length": 20,
-      "value": "\"Product ID not set\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 3234,
-      "length": 31,
-      "value": "\"Configuration not initialized\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 3691,
-      "length": 10,
-      "value": "\"tokenTTL\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 3996,
-      "length": 48,
-      "value": "\"Error: showFab() called before initialization.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 4346,
-      "length": 48,
-      "value": "\"Error: hideFab() called before initialization.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 4586,
-      "length": 51,
-      "value": "\"Error: openWidget() called before initialization.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 4836,
-      "length": 51,
-      "value": "\"Error: hideWidget() called before initialization.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 5081,
-      "length": 49,
-      "value": "\"Error: shutdown() called before initialization.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 5498,
-      "length": 53,
-      "value": "\"Error: getActiveUcc() called before initialization.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 5688,
-      "length": 5,
-      "value": "\"ucc\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 5749,
-      "length": 12,
-      "value": "\"shareLinks\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 5823,
-      "length": 11,
-      "value": "\"powerplay\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 5858,
-      "length": 5,
-      "value": "\"ucc\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 5875,
-      "length": 6,
-      "value": "\"link\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 6374,
-      "length": 55,
-      "value": "\"Error: changeLanguage() called before initialization.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7146,
-      "length": 7,
-      "value": "\"token\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7192,
-      "length": 10,
-      "value": "\"platform\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7206,
-      "length": 5,
-      "value": "\"ios\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7246,
-      "length": 15,
-      "value": "\"productConfig\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7298,
-      "length": 15,
-      "value": "\"productConfig\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7397,
-      "length": 15,
-      "value": "\"productConfig\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7460,
-      "length": 11,
-      "value": "\"productId\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7518,
-      "length": 15,
-      "value": "\"productConfig\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7629,
-      "length": 12,
-      "value": "\"sdkVersion\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7680,
-      "length": 16,
-      "value": "\"showFullWidget\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7713,
-      "length": 15,
-      "value": "\"productConfig\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7750,
-      "length": 14,
-      "value": "\"mobileConfig\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7817,
-      "length": 16,
-      "value": "\"showFullWidget\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7840,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7859,
-      "length": 25,
-      "value": "\"isNativeEventsSupported\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7886,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 7932,
-      "length": 17,
-      "value": "\"nativeSDKConfig\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "Array",
-      "offset": 8491,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 8590,
-      "length": 48,
-      "value": "\"Error converting configuration to JSON string:\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 8882,
-      "length": 8,
-      "value": "\"styles\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 8942,
-      "length": 5,
-      "value": "\"fab\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 9006,
-      "length": 9,
-      "value": "\"bgColor\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 9069,
-      "length": 11,
-      "value": "\"iconColor\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 9262,
-      "length": 3,
-      "value": "\"#\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
-      "kind": "StringLiteral",
-      "offset": 9458,
-      "length": 3,
-      "value": "\"#\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 541,
-      "length": 38,
-      "value": "\"https:\/\/localhost:5600\/api-analytics\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 643,
-      "length": 62,
-      "value": "\"https:\/\/share.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 681,
-      "length": 1,
-      "value": "\".cello.so\/api-analytics\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 745,
-      "length": 38,
-      "value": "\"https:\/\/share.cello.so\/api-analytics\""
+      "value": "\"0.7.0\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
@@ -2369,690 +1935,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1560,
-      "length": 18,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1571,
-      "length": 1,
-      "value": "\"\/batch\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1605,
-      "length": 13,
-      "value": "\"Invalid URL\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1730,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1762,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1802,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1843,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 1883,
-      "length": 8,
-      "value": "\"Accept\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1935,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2050,
-      "length": 7,
-      "value": "\"batch\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2177,
-      "length": 33,
-      "value": "\"Error encoding events: \""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2209,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2395,
-      "length": 41,
-      "value": "\"Error sending analytic events: \""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2435,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2583,
-      "length": 18,
-      "value": "\"Invalid response\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2669,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2675,
-      "length": 3,
-      "value": "299"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2738,
-      "length": 59,
-      "value": "\"Analytic events sent successfully. Count: \""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2796,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2848,
-      "length": 3,
-      "value": "413"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2876,
-      "length": 26,
-      "value": "\"Request entity too large\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 2947,
-      "length": 72,
-      "value": "\"Error sending analytic events. Status code: \""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
-      "kind": "StringLiteral",
-      "offset": 3018,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 370,
-      "length": 16,
-      "value": "\"changeLanguage\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 421,
-      "length": 13,
-      "value": "\"updateToken\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 476,
-      "length": 21,
-      "value": "\"_reinitializeWidget\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 616,
-      "length": 15,
-      "value": "\"'\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 629,
-      "length": 2,
-      "value": "\"'\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 677,
-      "length": 12,
-      "value": "\"'\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 687,
-      "length": 2,
-      "value": "\"'\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 770,
-      "length": 48,
-      "value": "\"{productId: '\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 796,
-      "length": 11,
-      "value": "\"', token: '\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 815,
-      "length": 3,
-      "value": "\"'}\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 887,
-      "length": 83,
-      "value": "\"window.cello.cmd.push(function () { window.Cello('\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 952,
-      "length": 18,
-      "value": "\"', \""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 963,
-      "length": 1,
-      "value": "\"); });\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1741,
-      "length": 15,
-      "value": "\"nativeHandler\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1864,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2281,
-      "length": 17,
-      "value": "\"nativeSDKConfig\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2372,
-      "length": 16,
-      "value": "\"showFullWidget\""
-    },
-    {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2496,
+      "offset": 9877,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2909,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3615,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3645,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3894,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4226,
-      "length": 2,
-      "value": "65"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4301,
-      "length": 2,
-      "value": "65"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4440,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4447,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4485,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4554,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4852,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4857,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4964,
-      "length": 3,
-      "value": "-18"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4970,
-      "length": 3,
-      "value": "-14"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5040,
-      "length": 2,
-      "value": "35"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5110,
-      "length": 2,
-      "value": "35"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5232,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5341,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5791,
-      "length": 15,
-      "value": "\"nativeHandler\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5894,
-      "length": 9,
-      "value": "\"command\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6011,
-      "length": 12,
-      "value": "\"closePanel\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6089,
-      "length": 16,
-      "value": "\"openSharePanel\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6142,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6208,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6253,
-      "length": 6,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6297,
-      "length": 6,
-      "value": "\"link\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6431,
-      "length": 55,
-      "value": "\"Error: Data is missing or not in the expected format.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6523,
-      "length": 20,
-      "value": "\"mobileWidgetLoaded\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 6633,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 6645,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 6714,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6766,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 6813,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6942,
-      "length": 20,
-      "value": "\"addAnalyticsEvents\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7005,
-      "length": 8,
-      "value": "\"events\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7139,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7196,
-      "length": 71,
-      "value": "\"Error: Analytic events data is missing or not in the expected format.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7304,
-      "length": 17,
-      "value": "\"hideCloseButton\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7367,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7389,
-      "length": 17,
-      "value": "\"showCloseButton\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7452,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7501,
-      "length": 37,
-      "value": "\"Unhandled message from web: \""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7537,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8075,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8225,
-      "length": 15,
-      "value": "\"nativeHandler\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8442,
-      "length": 35,
-      "value": "\"https:\/\/localhost:3334\/index.html\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8555,
-      "length": 70,
-      "value": "\"https:\/\/assets.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8594,
-      "length": 1,
-      "value": "\".cello.so\/mobile\/v1\/index.html\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8676,
-      "length": 46,
-      "value": "\"https:\/\/assets.cello.so\/mobile\/v1\/index.html\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9054,
-      "length": 10,
-      "value": "\"language\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9224,
-      "length": 43,
-      "value": "\"window.celloMobileConfig = \""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9265,
-      "length": 1,
-      "value": "\";\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9383,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9777,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 10211,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10529,
-      "length": 44,
-      "value": "\"    return \""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10561,
-      "length": 1176,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
@@ -3081,41 +1968,6 @@
       "offset": 582,
       "length": 3,
       "value": "5.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1007,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1154,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 1759,
-      "length": 6,
-      "value": "1000.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1966,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2099,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
@@ -3251,209 +2103,6 @@
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/Spinner.swift",
-      "kind": "FloatLiteral",
-      "offset": 1532,
-      "length": 3,
-      "value": "6.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/Spinner.swift",
-      "kind": "StringLiteral",
-      "offset": 1691,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/Spinner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1937,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/Spinner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1967,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/Spinner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2080,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/Spinner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2115,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/Spinner.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2121,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/Spinner.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2149,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/Spinner.swift",
-      "kind": "StringLiteral",
-      "offset": 2340,
-      "length": 17,
-      "value": "\"rotateAnimation\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/Spinner.swift",
-      "kind": "StringLiteral",
-      "offset": 2449,
-      "length": 17,
-      "value": "\"strokeAnimation\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/Spinner.swift",
-      "kind": "FloatLiteral",
-      "offset": 2637,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/Spinner.swift",
-      "kind": "StringLiteral",
-      "offset": 2899,
-      "length": 17,
-      "value": "\"strokeAnimation\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 316,
-      "length": 3,
-      "value": "\"#\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 327,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 366,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 472,
-      "length": 8,
-      "value": "0xFF0000"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 485,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "FloatLiteral",
-      "offset": 491,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 532,
-      "length": 8,
-      "value": "0x00FF00"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 545,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "FloatLiteral",
-      "offset": 550,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 589,
-      "length": 8,
-      "value": "0x0000FF"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "FloatLiteral",
-      "offset": 601,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "FloatLiteral",
-      "offset": 677,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 782,
-      "length": 7,
-      "value": "\"white\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 811,
-      "length": 7,
-      "value": "\"black\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 840,
-      "length": 5,
-      "value": "\"red\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 865,
-      "length": 6,
-      "value": "\"blue\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "StringLiteral",
-      "offset": 892,
-      "length": 7,
-      "value": "\"green\""
-    },
-    {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
       "kind": "FloatLiteral",
       "offset": 1120,
@@ -3462,157 +2111,10 @@
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1170,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
       "kind": "FloatLiteral",
       "offset": 1252,
       "length": 4,
       "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1298,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1318,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1337,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1357,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1486,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "FloatLiteral",
-      "offset": 1491,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1554,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "FloatLiteral",
-      "offset": 1559,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1620,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/ColorExtension.swift",
-      "kind": "FloatLiteral",
-      "offset": 1625,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/ViewControllerPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 511,
-      "length": 49,
-      "value": "\"Error: Could not find the root view controller.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/ViewControllerPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 858,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/ViewControllerPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 1256,
-      "length": 49,
-      "value": "\"Error: Could not find the root view controller.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/ViewControllerPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1385,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/AnalyticsEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 310,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/AnalyticsEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 351,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/AnalyticsEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 461,
-      "length": 11,
-      "value": "\"timestamp\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/AnalyticsEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 646,
-      "length": 11,
-      "value": "\"timestamp\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/AnalyticsEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 764,
-      "length": 10,
-      "value": "\"platform\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/AnalyticsEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 819,
-      "length": 9,
-      "value": "\"version\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/FabButton.swift",
@@ -3729,331 +2231,9 @@
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/FabButton.swift",
       "kind": "StringLiteral",
-      "offset": 1392,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/FabButton.swift",
-      "kind": "StringLiteral",
-      "offset": 2263,
-      "length": 44,
-      "value": "\"Error: Image named \""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/FabButton.swift",
-      "kind": "StringLiteral",
-      "offset": 2295,
-      "length": 3,
-      "value": "\" not found.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/FabButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2592,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/FabButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3686,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/FabButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3873,
-      "length": 4,
-      "value": "30.0"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/FabButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 3977,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/FabButton.swift",
-      "kind": "StringLiteral",
       "offset": 102,
       "length": 9,
       "value": "\"CelloSDK.FabButton\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 295,
-      "length": 37,
-      "value": "\"https:\/\/localhost:5500\/api\/products\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 396,
-      "length": 61,
-      "value": "\"https:\/\/share.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 434,
-      "length": 1,
-      "value": "\".cello.so\/api\/products\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 494,
-      "length": 37,
-      "value": "\"https:\/\/share.cello.so\/api\/products\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 687,
-      "length": 45,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 700,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 713,
-      "length": 1,
-      "value": "\"\/initialize-mobile\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 927,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 958,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 998,
-      "length": 8,
-      "value": "\"Accept\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1033,
-      "length": 17,
-      "value": "\"Bearer \""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1049,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1072,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1250,
-      "length": 40,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1263,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1276,
-      "length": 1,
-      "value": "\"\/update-token\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1485,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1516,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1556,
-      "length": 8,
-      "value": "\"Accept\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1591,
-      "length": 17,
-      "value": "\"Bearer \""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1607,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/RequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1630,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 428,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 623,
-      "length": 3,
-      "value": "401"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 751,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 757,
-      "length": 3,
-      "value": "299"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/NetworkManager.swift",
-      "kind": "Array",
-      "offset": 1410,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1586,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/NetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1596,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1638,
-      "length": 24,
-      "value": "\"Invalid JSON structure\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CustomShareSheet.swift",
-      "kind": "StringLiteral",
-      "offset": 596,
-      "length": 21,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CustomShareSheet.swift",
-      "kind": "StringLiteral",
-      "offset": 605,
-      "length": 1,
-      "value": "\"\n\n\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CustomShareSheet.swift",
-      "kind": "StringLiteral",
-      "offset": 616,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CustomShareSheet.swift",
-      "kind": "StringLiteral",
-      "offset": 673,
-      "length": 33,
-      "value": "\"com.google.Gmail.ShareExtension\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CustomShareSheet.swift",
-      "kind": "StringLiteral",
-      "offset": 745,
-      "length": 21,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CustomShareSheet.swift",
-      "kind": "StringLiteral",
-      "offset": 754,
-      "length": 1,
-      "value": "\"\n\n\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CustomShareSheet.swift",
-      "kind": "StringLiteral",
-      "offset": 765,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CustomShareSheet.swift",
-      "kind": "StringLiteral",
-      "offset": 822,
-      "length": 38,
-      "value": "\"net.whatsapp.WhatsApp.ShareExtension\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CustomShareSheet.swift",
-      "kind": "StringLiteral",
-      "offset": 962,
-      "length": 30,
-      "value": "\"com.tinyspeck.chatlyio.share\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CustomShareSheet.swift",
@@ -4063,228 +2243,109 @@
       "value": "\"CelloSDK.CustomShareSheet\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/APIError.swift",
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 445,
-      "length": 27,
-      "value": "\"Invalid URL: \""
+      "offset": 156,
+      "length": 7,
+      "value": "\"local\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/APIError.swift",
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 471,
-      "length": 1,
-      "value": "\"\""
+      "offset": 179,
+      "length": 5,
+      "value": "\"dev\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/APIError.swift",
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 508,
-      "length": 43,
-      "value": "\"User is not authorized to load the widget\""
+      "offset": 202,
+      "length": 7,
+      "value": "\"stage\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/APIError.swift",
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 611,
-      "length": 46,
-      "value": "\"Request failed with code \""
+      "offset": 226,
+      "length": 6,
+      "value": "\"demo\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/APIError.swift",
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 644,
-      "length": 1,
-      "value": "\": \""
+      "offset": 252,
+      "length": 9,
+      "value": "\"sandbox\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/APIError.swift",
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 656,
-      "length": 1,
-      "value": "\"\""
+      "offset": 278,
+      "length": 6,
+      "value": "\"prod\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/APIError.swift",
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 700,
-      "length": 23,
-      "value": "\"Invalid response type\""
+      "offset": 156,
+      "length": 7,
+      "value": "\"local\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/APIError.swift",
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 761,
-      "length": 18,
-      "value": "\"No data received\""
+      "offset": 179,
+      "length": 5,
+      "value": "\"dev\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/APIError.swift",
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 830,
-      "length": 51,
-      "value": "\"JSON Parsing Error: \""
+      "offset": 202,
+      "length": 7,
+      "value": "\"stage\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/APIError.swift",
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 880,
-      "length": 1,
-      "value": "\"\""
+      "offset": 226,
+      "length": 6,
+      "value": "\"demo\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/APIError.swift",
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 928,
-      "length": 32,
-      "value": "\"Invalid state. Error: \""
+      "offset": 252,
+      "length": 9,
+      "value": "\"sandbox\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Networking\/APIError.swift",
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 959,
-      "length": 1,
-      "value": "\"\""
+      "offset": 278,
+      "length": 6,
+      "value": "\"prod\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/APIService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 616,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/APIService.swift",
+      "filePath": "\/Users\/gitlab\/Library\/Developer\/Xcode\/DerivedData\/CelloSDK-guwsacuvehxmolfnegwzalienhhc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CelloSDK\/IntermediateBuildFilesPath\/CelloSDK.build\/Release-iphonesimulator\/CelloSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 620,
-      "length": 18,
-      "value": "\"Unexpected error\""
+      "offset": 731,
+      "length": 11,
+      "value": "\"arrowleft\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/APIService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1121,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/APIService.swift",
+      "filePath": "\/Users\/gitlab\/Library\/Developer\/Xcode\/DerivedData\/CelloSDK-guwsacuvehxmolfnegwzalienhhc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CelloSDK\/IntermediateBuildFilesPath\/CelloSDK.build\/Release-iphonesimulator\/CelloSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1125,
-      "length": 18,
-      "value": "\"Unexpected error\""
+      "offset": 862,
+      "length": 7,
+      "value": "\"close\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/FabButtonManager.swift",
+      "filePath": "\/Users\/gitlab\/Library\/Developer\/Xcode\/DerivedData\/CelloSDK-guwsacuvehxmolfnegwzalienhhc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CelloSDK\/IntermediateBuildFilesPath\/CelloSDK.build\/Release-iphonesimulator\/CelloSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 663,
-      "length": 23,
-      "value": "\"No valid window found\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/FabButtonManager.swift",
-      "kind": "StringLiteral",
-      "offset": 824,
-      "length": 49,
-      "value": "\"Error: Could not find the root view controller.\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/FabButtonManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1068,
+      "offset": 987,
       "length": 6,
       "value": "\"gift\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 156,
-      "length": 7,
-      "value": "\"local\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 179,
-      "length": 5,
-      "value": "\"dev\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 202,
-      "length": 7,
-      "value": "\"stage\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 226,
-      "length": 6,
-      "value": "\"demo\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 252,
-      "length": 9,
-      "value": "\"sandbox\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 278,
-      "length": 6,
-      "value": "\"prod\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 612,
-      "length": 11,
-      "value": "\"CELLO_ENV\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 156,
-      "length": 7,
-      "value": "\"local\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 179,
-      "length": 5,
-      "value": "\"dev\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 202,
-      "length": 7,
-      "value": "\"stage\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 226,
-      "length": 6,
-      "value": "\"demo\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 252,
-      "length": 9,
-      "value": "\"sandbox\""
-    },
-    {
-      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Environment.swift",
-      "kind": "StringLiteral",
-      "offset": 278,
-      "length": 6,
-      "value": "\"prod\""
     }
   ]
 }

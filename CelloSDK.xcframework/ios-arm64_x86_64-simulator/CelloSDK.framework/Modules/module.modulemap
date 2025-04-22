@@ -1,7 +1,7 @@
 framework module CelloSDK {
   umbrella header "CelloSDK.h"
-
   export *
+
   module * { export * }
 }
 
