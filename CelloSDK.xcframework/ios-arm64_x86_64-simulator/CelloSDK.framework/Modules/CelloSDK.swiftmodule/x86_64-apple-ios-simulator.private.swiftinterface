@@ -23,11 +23,18 @@ public enum SupportedLanguage : Swift.String {
     get
   }
 }
+public struct ProductUserDetails {
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let fullName: Swift.String?
+  public let email: Swift.String?
+  public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, fullName: Swift.String? = nil, email: Swift.String? = nil)
+}
 @_hasMissingDesignatedInitializers public class Cello {
   public var configuration: [Swift.String : Any]? {
     get
   }
-  public static func initialize(for productId: Swift.String, with token: Swift.String, environment: Swift.String? = nil, completion: @escaping (Swift.Result<[Swift.String : Any], CelloSDK.APIError>) -> Swift.Void)
+  public static func initialize(for productId: Swift.String, with token: Swift.String, environment: Swift.String? = nil, productUserDetails: CelloSDK.ProductUserDetails? = nil, completion: @escaping (Swift.Result<[Swift.String : Any], CelloSDK.APIError>) -> Swift.Void)
   @available(iOS 14.0, *)
   public static func updateToken(token: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], CelloSDK.APIError>) -> Swift.Void)
   public static func showFab()
