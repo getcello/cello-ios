@@ -1110,6 +1110,50 @@
           },
           {
             "kind": "Function",
+            "name": "getCampaignConfig",
+            "printedName": "getCampaignConfig()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CelloSDK0A0C17getCampaignConfigSDySSypGSgyFZ",
+            "mangledName": "$s8CelloSDK0A0C17getCampaignConfigSDySSypGSgyFZ",
+            "moduleName": "CelloSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "changeLanguage",
             "printedName": "changeLanguage(to:completion:)",
             "children": [
@@ -2275,7 +2319,7 @@
       "kind": "StringLiteral",
       "offset": 737,
       "length": 7,
-      "value": "\"0.8.0\""
+      "value": "\"0.9.0\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",

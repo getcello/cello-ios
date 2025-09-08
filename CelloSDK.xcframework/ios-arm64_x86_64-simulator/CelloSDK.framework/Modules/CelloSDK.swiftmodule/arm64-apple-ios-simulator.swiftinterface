@@ -43,6 +43,7 @@ public struct ProductUserDetails {
   public static func hideWidget()
   public static func shutdown()
   public static func getActiveUcc() -> [Swift.String : Swift.String]?
+  public static func getCampaignConfig() -> [Swift.String : Any]?
   @available(iOS 14.0, *)
   public static func changeLanguage(to language: CelloSDK.SupportedLanguage, completion: ((Swift.Result<Any, any Swift.Error>) -> Swift.Void)? = nil)
   @available(iOS 14.0, *)
