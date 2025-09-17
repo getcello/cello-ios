@@ -2318,8 +2318,8 @@
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
       "offset": 737,
-      "length": 7,
-      "value": "\"0.9.0\""
+      "length": 8,
+      "value": "\"0.10.0\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
@@ -2331,7 +2331,7 @@
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10236,
+      "offset": 10466,
       "length": 5,
       "value": "false"
     },
