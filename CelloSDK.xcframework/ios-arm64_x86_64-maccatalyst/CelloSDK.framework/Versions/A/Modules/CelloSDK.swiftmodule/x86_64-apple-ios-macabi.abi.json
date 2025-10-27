@@ -771,7 +771,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(for:with:environment:productUserDetails:completion:)",
+            "printedName": "initialize(for:with:environment:productUserDetails:language:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -815,6 +815,21 @@
                     "name": "ProductUserDetails",
                     "printedName": "CelloSDK.ProductUserDetails",
                     "usr": "s:8CelloSDK18ProductUserDetailsV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -867,8 +882,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CelloSDK0A0C10initialize3for4with11environment18productUserDetails10completionySS_S2SSgAA07ProducthI0VSgys6ResultOySDySSypGAA8APIErrorOGctFZ",
-            "mangledName": "$s8CelloSDK0A0C10initialize3for4with11environment18productUserDetails10completionySS_S2SSgAA07ProducthI0VSgys6ResultOySDySSypGAA8APIErrorOGctFZ",
+            "usr": "s:8CelloSDK0A0C10initialize3for4with11environment18productUserDetails8language10completionySS_S2SSgAA07ProducthI0VSgAKys6ResultOySDySSypGAA8APIErrorOGctFZ",
+            "mangledName": "$s8CelloSDK0A0C10initialize3for4with11environment18productUserDetails8language10completionySS_S2SSgAA07ProducthI0VSgAKys6ResultOySDySSypGAA8APIErrorOGctFZ",
             "moduleName": "CelloSDK",
             "static": true,
             "declAttributes": [
@@ -2400,7 +2415,7 @@
       "kind": "StringLiteral",
       "offset": 737,
       "length": 8,
-      "value": "\"0.10.0\""
+      "value": "\"0.11.0\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",

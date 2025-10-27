@@ -35,7 +35,7 @@ public struct ProductUserDetails {
   public var configuration: [Swift.String : Any]? {
     get
   }
-  public static func initialize(for productId: Swift.String, with token: Swift.String, environment: Swift.String? = nil, productUserDetails: CelloSDK.ProductUserDetails? = nil, completion: @escaping (Swift.Result<[Swift.String : Any], CelloSDK.APIError>) -> Swift.Void)
+  public static func initialize(for productId: Swift.String, with token: Swift.String, environment: Swift.String? = nil, productUserDetails: CelloSDK.ProductUserDetails? = nil, language: Swift.String? = nil, completion: @escaping (Swift.Result<[Swift.String : Any], CelloSDK.APIError>) -> Swift.Void)
   @available(iOS 14.0, *)
   public static func updateToken(token: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], CelloSDK.APIError>) -> Swift.Void)
   public static func showFab()
