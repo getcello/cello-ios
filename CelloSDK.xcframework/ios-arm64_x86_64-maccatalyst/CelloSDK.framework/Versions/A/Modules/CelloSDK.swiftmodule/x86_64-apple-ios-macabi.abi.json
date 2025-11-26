@@ -771,7 +771,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(for:with:environment:productUserDetails:language:completion:)",
+            "printedName": "initialize(for:with:environment:productUserDetails:language:themeMode:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -815,6 +815,21 @@
                     "name": "ProductUserDetails",
                     "printedName": "CelloSDK.ProductUserDetails",
                     "usr": "s:8CelloSDK18ProductUserDetailsV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -882,8 +897,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CelloSDK0A0C10initialize3for4with11environment18productUserDetails8language10completionySS_S2SSgAA07ProducthI0VSgAKys6ResultOySDySSypGAA8APIErrorOGctFZ",
-            "mangledName": "$s8CelloSDK0A0C10initialize3for4with11environment18productUserDetails8language10completionySS_S2SSgAA07ProducthI0VSgAKys6ResultOySDySSypGAA8APIErrorOGctFZ",
+            "usr": "s:8CelloSDK0A0C10initialize3for4with11environment18productUserDetails8language9themeMode10completionySS_S2SSgAA07ProducthI0VSgA2Lys6ResultOySDySSypGAA8APIErrorOGctFZ",
+            "mangledName": "$s8CelloSDK0A0C10initialize3for4with11environment18productUserDetails8language9themeMode10completionySS_S2SSgAA07ProducthI0VSgA2Lys6ResultOySDySSypGAA8APIErrorOGctFZ",
             "moduleName": "CelloSDK",
             "static": true,
             "declAttributes": [
@@ -1297,6 +1312,76 @@
             "declKind": "Func",
             "usr": "s:8CelloSDK0A0C14changeLanguage2to10completionySS_ys6ResultOyyps5Error_pGcSgtFZ",
             "mangledName": "$s8CelloSDK0A0C14changeLanguage2to10completionySS_ys6ResultOyyps5Error_pGcSgtFZ",
+            "moduleName": "CelloSDK",
+            "static": true,
+            "intro_iOS": "14.0",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setThemeMode",
+            "printedName": "setThemeMode(to:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<Any, any Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<Any, any Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<Any, any Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CelloSDK0A0C12setThemeMode2to10completionySS_ys6ResultOyyps5Error_pGcSgtFZ",
+            "mangledName": "$s8CelloSDK0A0C12setThemeMode2to10completionySS_ys6ResultOyyps5Error_pGcSgtFZ",
             "moduleName": "CelloSDK",
             "static": true,
             "intro_iOS": "14.0",
@@ -2321,15 +2406,22 @@
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
+      "kind": "StringLiteral",
+      "offset": 928,
+      "length": 9,
+      "value": "\"#212121\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1054,
+      "offset": 1227,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/View\/CloseButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1089,
+      "offset": 1297,
       "length": 5,
       "value": "false"
     },
@@ -2415,7 +2507,7 @@
       "kind": "StringLiteral",
       "offset": 737,
       "length": 8,
-      "value": "\"0.11.1\""
+      "value": "\"0.12.0\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
@@ -2427,14 +2519,14 @@
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10466,
+      "offset": 11151,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 986,
+      "offset": 1116,
       "length": 17,
       "value": "\"CelloSDK.WebViewController\""
     },
