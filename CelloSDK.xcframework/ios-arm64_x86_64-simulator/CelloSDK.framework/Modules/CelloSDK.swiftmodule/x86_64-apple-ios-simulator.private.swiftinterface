@@ -39,7 +39,7 @@ public struct ProductUserDetails {
   public static func updateToken(token: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], CelloSDK.APIError>) -> Swift.Void)
   public static func showFab()
   public static func hideFab()
-  public static func openWidget()
+  public static func openWidget(destination: Swift.String? = nil)
   public static func hideWidget()
   public static func shutdown()
   public static func getActiveUcc() -> [Swift.String : Swift.String]?

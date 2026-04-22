@@ -1030,17 +1030,32 @@
           {
             "kind": "Function",
             "name": "openWidget",
-            "printedName": "openWidget()",
+            "printedName": "openWidget(destination:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8CelloSDK0A0C10openWidgetyyFZ",
-            "mangledName": "$s8CelloSDK0A0C10openWidgetyyFZ",
+            "usr": "s:8CelloSDK0A0C10openWidget11destinationySSSg_tFZ",
+            "mangledName": "$s8CelloSDK0A0C10openWidget11destinationySSSg_tFZ",
             "moduleName": "CelloSDK",
             "static": true,
             "declAttributes": [
@@ -2426,7 +2441,7 @@
       "kind": "StringLiteral",
       "offset": 737,
       "length": 8,
-      "value": "\"0.12.0\""
+      "value": "\"0.13.0\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
@@ -2438,7 +2453,7 @@
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11151,
+      "offset": 11806,
       "length": 5,
       "value": "false"
     },
