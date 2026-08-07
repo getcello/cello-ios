@@ -7,5 +7,4 @@ framework module CelloSDK {
 
 module CelloSDK.Swift {
   header "CelloSDK-Swift.h"
-  requires objc
 }
