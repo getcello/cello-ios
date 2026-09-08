@@ -45,6 +45,7 @@ public struct ProductUserDetails {
   public static func hideWidget()
   public static func shutdown()
   public static func getActiveUcc() -> [Swift.String : Swift.String]?
+  public static func getConfiguration() -> CelloSDK.CelloConfiguration?
   public static func getCampaignConfig() -> [Swift.String : Any]?
   @available(iOS 14.0, *)
   public static func changeLanguage(to language: CelloSDK.SupportedLanguage, completion: ((Swift.Result<Any, any Swift.Error>) -> Swift.Void)? = nil)
@@ -71,6 +72,32 @@ extension CelloSDK.APIError : Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
+}
+public struct CelloConfiguration {
+  public let productId: Swift.String?
+  public let referrerId: Swift.String?
+  public let campaignId: Swift.String?
+  public let ucc: Swift.String?
+  public let shareLink: Swift.String?
+  public let productName: Swift.String?
+  public let language: Swift.String?
+  public let supportedLanguages: [Swift.String]
+  public let themeMode: Swift.String?
+  public let platform: Swift.String
+  public let sdkVersion: Swift.String
+  public let tokenTTL: Swift.Double
+  public let totalEarnedRewards: Swift.String?
+  public let views: Swift.Int
+  public let unreadViewsCount: Swift.Int
+  public let hasPaymentDetails: Swift.Bool
+  public let onboardingShown: Swift.Bool
+  public let isUserBlocked: Swift.Bool
+  public let isWidgetUnavailable: Swift.Bool
+  public let showFullWidget: Swift.Bool
+  public let showEnhancedView: Swift.Bool
+  public let isTablet: Swift.Bool
+  public let campaignConfig: [Swift.String : Any]?
+  public func asDictionary() -> [Swift.String : Any]
 }
 extension CelloSDK.SupportedLanguage : Swift.Equatable {}
 extension CelloSDK.SupportedLanguage : Swift.Hashable {}

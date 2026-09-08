@@ -1185,6 +1185,37 @@
           },
           {
             "kind": "Function",
+            "name": "getConfiguration",
+            "printedName": "getConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CelloSDK.CelloConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CelloConfiguration",
+                    "printedName": "CelloSDK.CelloConfiguration",
+                    "usr": "s:8CelloSDK0A13ConfigurationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CelloSDK0A0C16getConfigurationAA0aD0VSgyFZ",
+            "mangledName": "$s8CelloSDK0A0C16getConfigurationAA0aD0VSgyFZ",
+            "moduleName": "CelloSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getCampaignConfig",
             "printedName": "getCampaignConfig()",
             "children": [
@@ -2080,6 +2111,1294 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "CelloSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CelloConfiguration",
+        "printedName": "CelloConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "productId",
+            "printedName": "productId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV9productIdSSSgvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV9productIdSSSgvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV9productIdSSSgvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV9productIdSSSgvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "referrerId",
+            "printedName": "referrerId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV10referrerIdSSSgvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV10referrerIdSSSgvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV10referrerIdSSSgvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV10referrerIdSSSgvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "campaignId",
+            "printedName": "campaignId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV10campaignIdSSSgvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV10campaignIdSSSgvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV10campaignIdSSSgvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV10campaignIdSSSgvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ucc",
+            "printedName": "ucc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV3uccSSSgvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV3uccSSSgvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV3uccSSSgvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV3uccSSSgvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shareLink",
+            "printedName": "shareLink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV9shareLinkSSSgvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV9shareLinkSSSgvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV9shareLinkSSSgvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV9shareLinkSSSgvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "productName",
+            "printedName": "productName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV11productNameSSSgvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV11productNameSSSgvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV11productNameSSSgvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV11productNameSSSgvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "language",
+            "printedName": "language",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV8languageSSSgvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV8languageSSSgvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV8languageSSSgvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV8languageSSSgvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedLanguages",
+            "printedName": "supportedLanguages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV18supportedLanguagesSaySSGvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV18supportedLanguagesSaySSGvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV18supportedLanguagesSaySSGvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV18supportedLanguagesSaySSGvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "themeMode",
+            "printedName": "themeMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV9themeModeSSSgvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV9themeModeSSSgvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV9themeModeSSSgvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV9themeModeSSSgvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "platform",
+            "printedName": "platform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV8platformSSvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV8platformSSvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV8platformSSvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV8platformSSvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV10sdkVersionSSvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV10sdkVersionSSvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV10sdkVersionSSvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV10sdkVersionSSvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tokenTTL",
+            "printedName": "tokenTTL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV8tokenTTLSdvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV8tokenTTLSdvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV8tokenTTLSdvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV8tokenTTLSdvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalEarnedRewards",
+            "printedName": "totalEarnedRewards",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV18totalEarnedRewardsSSSgvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV18totalEarnedRewardsSSSgvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV18totalEarnedRewardsSSSgvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV18totalEarnedRewardsSSSgvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "views",
+            "printedName": "views",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV5viewsSivp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV5viewsSivp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV5viewsSivg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV5viewsSivg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unreadViewsCount",
+            "printedName": "unreadViewsCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV16unreadViewsCountSivp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV16unreadViewsCountSivp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV16unreadViewsCountSivg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV16unreadViewsCountSivg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasPaymentDetails",
+            "printedName": "hasPaymentDetails",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV17hasPaymentDetailsSbvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV17hasPaymentDetailsSbvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV17hasPaymentDetailsSbvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV17hasPaymentDetailsSbvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onboardingShown",
+            "printedName": "onboardingShown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV15onboardingShownSbvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV15onboardingShownSbvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV15onboardingShownSbvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV15onboardingShownSbvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isUserBlocked",
+            "printedName": "isUserBlocked",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV13isUserBlockedSbvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV13isUserBlockedSbvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV13isUserBlockedSbvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV13isUserBlockedSbvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isWidgetUnavailable",
+            "printedName": "isWidgetUnavailable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV19isWidgetUnavailableSbvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV19isWidgetUnavailableSbvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV19isWidgetUnavailableSbvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV19isWidgetUnavailableSbvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showFullWidget",
+            "printedName": "showFullWidget",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV14showFullWidgetSbvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV14showFullWidgetSbvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV14showFullWidgetSbvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV14showFullWidgetSbvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showEnhancedView",
+            "printedName": "showEnhancedView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV16showEnhancedViewSbvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV16showEnhancedViewSbvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV16showEnhancedViewSbvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV16showEnhancedViewSbvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isTablet",
+            "printedName": "isTablet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV8isTabletSbvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV8isTabletSbvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV8isTabletSbvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV8isTabletSbvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "campaignConfig",
+            "printedName": "campaignConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A13ConfigurationV14campaignConfigSDySSypGSgvp",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV14campaignConfigSDySSypGSgvp",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A13ConfigurationV14campaignConfigSDySSypGSgvg",
+                "mangledName": "$s8CelloSDK0A13ConfigurationV14campaignConfigSDySSypGSgvg",
+                "moduleName": "CelloSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "asDictionary",
+            "printedName": "asDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CelloSDK0A13ConfigurationV12asDictionarySDySSypGyF",
+            "mangledName": "$s8CelloSDK0A13ConfigurationV12asDictionarySDySSypGyF",
+            "moduleName": "CelloSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8CelloSDK0A13ConfigurationV",
+        "mangledName": "$s8CelloSDK0A13ConfigurationV",
+        "moduleName": "CelloSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "CelloSDK"
       },
       {
@@ -2596,7 +3915,7 @@
       "kind": "StringLiteral",
       "offset": 737,
       "length": 8,
-      "value": "\"0.14.0\""
+      "value": "\"0.15.0\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
@@ -2615,35 +3934,49 @@
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 482,
+      "offset": 273,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 486,
-      "length": 4,
-      "value": "60.0"
+      "kind": "IntegerLiteral",
+      "offset": 277,
+      "length": 2,
+      "value": "60"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 582,
-      "length": 3,
-      "value": "5.0"
+      "kind": "IntegerLiteral",
+      "offset": 355,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 499,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 549,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
       "kind": "StringLiteral",
-      "offset": 2541,
+      "offset": 3363,
       "length": 25,
       "value": "\"CelloTokenAboutToExpire\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Managers\/TokenManager.swift",
       "kind": "StringLiteral",
-      "offset": 2631,
+      "offset": 3453,
       "length": 22,
       "value": "\"CelloTokenHasExpired\""
     },
