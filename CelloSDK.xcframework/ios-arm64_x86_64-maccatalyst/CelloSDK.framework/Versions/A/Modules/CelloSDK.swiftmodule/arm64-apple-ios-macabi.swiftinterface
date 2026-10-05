@@ -32,7 +32,20 @@ public struct ProductUserDetails {
   public let email: Swift.String?
   public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, fullName: Swift.String? = nil, email: Swift.String? = nil)
 }
+public protocol CelloDelegate : AnyObject {
+  func celloWidgetDidOpen()
+  func celloWidgetDidClose()
+}
+extension CelloSDK.CelloDelegate {
+  public func celloWidgetDidOpen()
+  public func celloWidgetDidClose()
+}
+extension Foundation.NSNotification.Name {
+  public static let CelloWidgetDidOpen: Foundation.Notification.Name
+  public static let CelloWidgetDidClose: Foundation.Notification.Name
+}
 @_hasMissingDesignatedInitializers public class Cello {
+  weak public static var delegate: (any CelloSDK.CelloDelegate)?
   public var configuration: [Swift.String : Any]? {
     get
   }

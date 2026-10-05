@@ -708,9 +708,240 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "CelloDelegate",
+        "printedName": "CelloDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "celloWidgetDidOpen",
+            "printedName": "celloWidgetDidOpen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CelloSDK0A8DelegateP18celloWidgetDidOpenyyF",
+            "mangledName": "$s8CelloSDK0A8DelegateP18celloWidgetDidOpenyyF",
+            "moduleName": "CelloSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CelloSDK.CelloDelegate>",
+            "sugared_genericSig": "<Self where Self : CelloSDK.CelloDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "celloWidgetDidClose",
+            "printedName": "celloWidgetDidClose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CelloSDK0A8DelegateP19celloWidgetDidCloseyyF",
+            "mangledName": "$s8CelloSDK0A8DelegateP19celloWidgetDidCloseyyF",
+            "moduleName": "CelloSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CelloSDK.CelloDelegate>",
+            "sugared_genericSig": "<Self where Self : CelloSDK.CelloDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "celloWidgetDidOpen",
+            "printedName": "celloWidgetDidOpen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CelloSDK0A8DelegatePAAE18celloWidgetDidOpenyyF",
+            "mangledName": "$s8CelloSDK0A8DelegatePAAE18celloWidgetDidOpenyyF",
+            "moduleName": "CelloSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CelloSDK.CelloDelegate>",
+            "sugared_genericSig": "<Self where Self : CelloSDK.CelloDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "celloWidgetDidClose",
+            "printedName": "celloWidgetDidClose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8CelloSDK0A8DelegatePAAE19celloWidgetDidCloseyyF",
+            "mangledName": "$s8CelloSDK0A8DelegatePAAE19celloWidgetDidCloseyyF",
+            "moduleName": "CelloSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CelloSDK.CelloDelegate>",
+            "sugared_genericSig": "<Self where Self : CelloSDK.CelloDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8CelloSDK0A8DelegateP",
+        "mangledName": "$s8CelloSDK0A8DelegateP",
+        "moduleName": "CelloSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Cello",
         "printedName": "Cello",
         "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any CelloSDK.CelloDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CelloSDK0A0C8delegateAA0A8Delegate_pSgvpZ",
+            "mangledName": "$s8CelloSDK0A0C8delegateAA0A8Delegate_pSgvpZ",
+            "moduleName": "CelloSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CelloSDK.CelloDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CelloDelegate",
+                        "printedName": "any CelloSDK.CelloDelegate",
+                        "usr": "s:8CelloSDK0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A0C8delegateAA0A8Delegate_pSgvgZ",
+                "mangledName": "$s8CelloSDK0A0C8delegateAA0A8Delegate_pSgvgZ",
+                "moduleName": "CelloSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CelloSDK.CelloDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CelloDelegate",
+                        "printedName": "any CelloSDK.CelloDelegate",
+                        "usr": "s:8CelloSDK0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A0C8delegateAA0A8Delegate_pSgvsZ",
+                "mangledName": "$s8CelloSDK0A0C8delegateAA0A8Delegate_pSgvsZ",
+                "moduleName": "CelloSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CelloSDK0A0C8delegateAA0A8Delegate_pSgvMZ",
+                "mangledName": "$s8CelloSDK0A0C8delegateAA0A8Delegate_pSgvMZ",
+                "moduleName": "CelloSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
           {
             "kind": "Var",
             "name": "configuration",
@@ -3436,6 +3667,104 @@
         "children": [
           {
             "kind": "Var",
+            "name": "CelloWidgetDidOpen",
+            "printedName": "CelloWidgetDidOpen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea8CelloSDKE0C13WidgetDidOpenABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea8CelloSDKE0C13WidgetDidOpenABvpZ",
+            "moduleName": "CelloSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea8CelloSDKE0C13WidgetDidOpenABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea8CelloSDKE0C13WidgetDidOpenABvgZ",
+                "moduleName": "CelloSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CelloWidgetDidClose",
+            "printedName": "CelloWidgetDidClose",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea8CelloSDKE0C14WidgetDidCloseABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea8CelloSDKE0C14WidgetDidCloseABvpZ",
+            "moduleName": "CelloSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea8CelloSDKE0C14WidgetDidCloseABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea8CelloSDKE0C14WidgetDidCloseABvgZ",
+                "moduleName": "CelloSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "CelloTokenAboutToExpire",
             "printedName": "CelloTokenAboutToExpire",
             "children": [
@@ -3913,9 +4242,23 @@
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
       "kind": "StringLiteral",
-      "offset": 737,
+      "offset": 972,
+      "length": 20,
+      "value": "\"CelloWidgetDidOpen\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
+      "kind": "StringLiteral",
+      "offset": 1056,
+      "length": 21,
+      "value": "\"CelloWidgetDidClose\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Cello.swift",
+      "kind": "StringLiteral",
+      "offset": 1148,
       "length": 8,
-      "value": "\"0.15.0\""
+      "value": "\"0.16.0\""
     },
     {
       "filePath": "\/Users\/gitlab\/builds\/powerplay1\/mobile-ios\/CelloSDK\/Services\/Analytics.swift",
