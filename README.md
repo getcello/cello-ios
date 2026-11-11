@@ -6,33 +6,33 @@ Note, that you will still need to provide access to full featured Cello Referral
 
 ## Installation
 
-You can install Cello for iOS through Swift Package Manager or Manually. Cocoapods will be available in the future. A basic installation takes around 15 minutes but will take a little longer if you want to customize the way the Cello Referral Component is launched.
+Cello for iOS supports iOS 15 and up. To install it you need the product ID and token you get during onboarding.
 
-To install Cello for iOS, you will need an API key, which you will be provided during onboarding.
+### Option 1: Swift Package Manager (recommended)
 
-### Compatibility
+Add `https://github.com/getcello/cello-ios-sp` as a Swift Package Repository in Xcode and follow the instructions to add `CelloSDK` as a Swift Package.
 
-Cello for iOS is compatible with iOS 15 and up.
+### Option 2: CocoaPods
 
-### Setup
+CocoaPods trunk became read-only on 2 December 2026, so `pod 'CelloSDK'` on its own stops at 0.16.1. Pin the release you want from this repository instead:
 
-Install Cello to see and give your users the option to spread the word from your iOS app. The Cello for iOS library supports iOS 15+ and requires Xcode 14 to build.
+```ruby
+target 'YourTargetName' do
+  pod 'CelloSDK', :git => 'https://github.com/getcello/cello-ios.git', :tag => '0.16.1'
+end
+```
 
-### Install Cello
+Every release is tagged here. Change the tag to upgrade, then run `pod install`.
 
-## Option 1: Swift Package Manager
+### Option 3: Install manually
 
-Add https://github.com/getcello/cello-ios-sp as a Swift Package Repository in Xcode and follow the instructions to add CelloSDK as a Swift Package.
-
-### Option 2: Install Cello manually
-
-- Download Cello for iOS and extract the zip. [(👉 Cello iOS zip download)](https://github.com/getcello/cello-ios-sp/releases/download/0.15.0/CelloSDK.xcframework.zip)
-- Drag CelloSDK.xcframework into your project. Make sure "Copy items if needed" is selected and click Finish.
-- In the target settings for your app, set the CelloSDK.xcframework to “Embed & Sign”. This can be found in the “Frameworks, Libraries, and Embedded Content” section of the “General” tab.
+- Download `CelloSDK.xcframework.zip` from the [latest release](https://github.com/getcello/cello-ios-sp/releases/latest) and extract it.
+- Drag `CelloSDK.xcframework` into your project. Make sure "Copy items if needed" is selected and click Finish.
+- In the target settings for your app, set `CelloSDK.xcframework` to "Embed & Sign" in the "Frameworks, Libraries, and Embedded Content" section of the "General" tab.
 
 ## Example app
 
-There are example app provided [here](https://github.com/getcello/cello-ios/tree/master/Examples).
+An example app is provided [here](https://github.com/getcello/cello-ios/tree/main/Examples).
 
 ## React Native Support
 
